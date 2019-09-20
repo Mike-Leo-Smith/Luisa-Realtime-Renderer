@@ -1,0 +1,627 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v4.1.0)
+
+newmtl M_Arch_Inst_Red_2
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Arch_Inst_Red_2_0_BaseColor.bmp
+map_Ks Textures/M_Arch_Inst_Red_2_0_Specular.bmp
+bump Textures/M_Arch_Inst_Red_2_0_Normal.bmp
+map_bump Textures/M_Arch_Inst_Red_2_0_Normal.bmp
+
+newmtl M_Dome_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Dome_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Dome_Inst_0_Specular.bmp
+bump Textures/M_Dome_Inst_0_Normal.bmp
+map_bump Textures/M_Dome_Inst_0_Normal.bmp
+
+newmtl M_Trim_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Trim_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Trim_Inst_0_Specular.bmp
+bump Textures/M_Trim_Inst_0_Normal.bmp
+map_bump Textures/M_Trim_Inst_0_Normal.bmp
+
+newmtl M_StoneBrickWall_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_StoneBrickWall_Inst_0_BaseColor.bmp
+map_Ks Textures/M_StoneBrickWall_Inst_0_Specular.bmp
+bump Textures/M_StoneBrickWall_Inst_0_Normal.bmp
+map_bump Textures/M_StoneBrickWall_Inst_0_Normal.bmp
+
+newmtl M_Stairs_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Stairs_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Stairs_Inst_0_Specular.bmp
+bump Textures/M_Stairs_Inst_0_Normal.bmp
+map_bump Textures/M_Stairs_Inst_0_Normal.bmp
+
+newmtl M_BottomTrim_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_BottomTrim_Inst_0_BaseColor.bmp
+map_Ks Textures/M_BottomTrim_Inst_0_Specular.bmp
+bump Textures/M_BottomTrim_Inst_0_Normal.bmp
+map_bump Textures/M_BottomTrim_Inst_0_Normal.bmp
+
+newmtl M_Pillar_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Pillar_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Pillar_Inst_0_Specular.bmp
+bump Textures/M_Pillar_Inst_0_Normal.bmp
+map_bump Textures/M_Pillar_Inst_0_Normal.bmp
+
+newmtl M_Arch_Inst_2
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Arch_Inst_2_0_BaseColor.bmp
+map_Ks Textures/M_Arch_Inst_2_0_Specular.bmp
+bump Textures/M_Arch_Inst_2_0_Normal.bmp
+map_bump Textures/M_Arch_Inst_2_0_Normal.bmp
+
+newmtl M_Dome_2
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Dome_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Dome_2_0_Specular.bmp
+bump Textures/M_Dome_2_0_Normal.bmp
+map_bump Textures/M_Dome_2_0_Normal.bmp
+
+newmtl M_Statue_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+d 1
+Ns 1024
+illum 2
+map_Kd Textures/M_Statue_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Statue_Inst_0_Specular.bmp
+bump Textures/M_Statue_Inst_0_Normal.bmp
+map_bump Textures/M_Statue_Inst_0_Normal.bmp
+
+newmtl M_StoneCeiling_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_StoneCeiling_Inst_0_BaseColor.bmp
+map_Ks Textures/M_StoneCeiling_Inst_0_Specular.bmp
+bump Textures/M_StoneCeiling_Inst_0_Normal.bmp
+map_bump Textures/M_StoneCeiling_Inst_0_Normal.bmp
+
+newmtl M_BottomTrim_Inst_UTile4
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_BottomTrim_Inst_0_BaseColor.bmp
+map_Ks Textures/M_BottomTrim_Inst_UTile4_0_Specular.bmp
+bump Textures/M_BottomTrim_Inst_UTile4_0_Normal.bmp
+map_bump Textures/M_BottomTrim_Inst_UTile4_0_Normal.bmp
+
+newmtl M_Trim_Inst_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Trim_Inst_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Trim_Inst_Inst_0_Specular.bmp
+bump Textures/M_Trim_Inst_Inst_0_Normal.bmp
+map_bump Textures/M_Trim_Inst_Inst_0_Normal.bmp
+
+newmtl M_FirePit_Inst_nofire
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_FirePit_Inst_0_BaseColor.bmp
+map_Ks Textures/M_FirePit_Inst_nofire_0_Specular.bmp
+bump Textures/M_FirePit_Inst_nofire_0_Normal.bmp
+map_bump Textures/M_FirePit_Inst_nofire_0_Normal.bmp
+
+newmtl M_Arch_Inst_Red
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Arch_Inst_Red_0_BaseColor.bmp
+map_Ks Textures/M_Arch_Inst_Red_0_Specular.bmp
+bump Textures/M_Arch_Inst_Red_0_Normal.bmp
+map_bump Textures/M_Arch_Inst_Red_0_Normal.bmp
+
+newmtl M_Arch_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Arch_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Arch_Inst_0_Specular.bmp
+bump Textures/M_Arch_Inst_0_Normal.bmp
+map_bump Textures/M_Arch_Inst_0_Normal.bmp
+
+newmtl M_Shield_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.3 0.3 0.3
+Ke 0 0 0
+d 1
+Ns 256
+illum 2
+map_Kd Textures/M_Shield_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Shield_Inst_0_Specular.bmp
+bump Textures/M_Shield_Inst_0_Normal.bmp
+map_bump Textures/M_Shield_Inst_0_Normal.bmp
+
+newmtl M_BottomTrim_Inst_Black
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_BottomTrim_Inst_Black_0_BaseColor.bmp
+map_Ks Textures/M_BottomTrim_Inst_Black_0_Specular.bmp
+bump Textures/M_BottomTrim_Inst_Black_0_Normal.bmp
+map_bump Textures/M_BottomTrim_Inst_Black_0_Normal.bmp
+
+newmtl M_FirePit_Inst_Glow
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0.5 0.5 0.5
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_FirePit_Inst_0_BaseColor.bmp
+map_Ks Textures/M_FirePit_Inst_Glow_0_Specular.bmp
+bump Textures/M_FirePit_Inst_Glow_0_Normal.bmp
+map_bump Textures/M_FirePit_Inst_Glow_0_Normal.bmp
+
+newmtl M_Railing_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Railing_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Railing_Inst_0_Specular.bmp
+bump Textures/M_Railing_Inst_0_Normal.bmp
+map_bump Textures/M_Railing_Inst_0_Normal.bmp
+
+newmtl M_Pillar_Inst_Colored
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Pillar_Inst_Colored_0_BaseColor.bmp
+map_Ks Textures/M_Pillar_Inst_Colored_0_Specular.bmp
+bump Textures/M_Pillar_Inst_Colored_0_Normal.bmp
+map_bump Textures/M_Pillar_Inst_Colored_0_Normal.bmp
+
+newmtl M_FloorTiles1_Inst_Inst2
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 256
+illum 2
+map_Kd Textures/M_FloorTiles1_Inst_Inst2_0_BaseColor.bmp
+map_Ks Textures/M_FloorTiles1_Inst_Inst2_0_Specular.bmp
+bump Textures/M_FloorTiles1_Inst_Inst2_0_Normal.bmp
+map_bump Textures/M_FloorTiles1_Inst_Inst2_0_Normal.bmp
+
+newmtl M_FloorTiles2_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 256
+illum 2
+map_Kd Textures/M_FloorTiles2_Inst_0_BaseColor.bmp
+map_Ks Textures/M_FloorTiles2_Inst_0_Specular.bmp
+bump Textures/M_FloorTiles2_Inst_0_Normal.bmp
+map_bump Textures/M_FloorTiles2_Inst_0_Normal.bmp
+
+newmtl M_FloorTiles2_Inst_Inst_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 256
+illum 2
+map_Kd Textures/M_FloorTiles2_Inst_Inst_Inst_0_BaseColor.bmp
+map_Ks Textures/M_FloorTiles2_Inst_Inst_Inst_0_Specular.bmp
+bump Textures/M_FloorTiles2_Inst_Inst_Inst_0_Normal.bmp
+map_bump Textures/M_FloorTiles2_Inst_Inst_Inst_0_Normal.bmp
+
+newmtl M_FloorTiles1_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 256
+illum 2
+map_Kd Textures/M_FloorTiles1_Inst_0_BaseColor.bmp
+map_Ks Textures/M_FloorTiles1_Inst_0_Specular.bmp
+bump Textures/M_FloorTiles1_Inst_0_Normal.bmp
+map_bump Textures/M_FloorTiles1_Inst_0_Normal.bmp
+
+newmtl M_FloorTiles1_Inst_Blue
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 256
+illum 2
+map_Kd Textures/M_FloorTiles1_Inst_Blue_0_BaseColor.bmp
+map_Ks Textures/M_FloorTiles1_Inst_Blue_0_Specular.bmp
+bump Textures/M_FloorTiles1_Inst_Blue_0_Normal.bmp
+map_bump Textures/M_FloorTiles1_Inst_Blue_0_Normal.bmp
+
+newmtl M_FloorTiles2_Inst_REd
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 256
+illum 2
+map_Kd Textures/M_FloorTiles2_Inst_REd_0_BaseColor.bmp
+map_Ks Textures/M_FloorTiles2_Inst_REd_0_Specular.bmp
+bump Textures/M_FloorTiles2_Inst_REd_0_Normal.bmp
+map_bump Textures/M_FloorTiles2_Inst_REd_0_Normal.bmp
+
+newmtl M_TreeTrunk01_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_TreeTrunk01_Inst_0_BaseColor.bmp
+map_Ks Textures/M_TreeTrunk01_Inst_0_Specular.bmp
+bump Textures/M_TreeTrunk01_Inst_0_Normal.bmp
+map_bump Textures/M_TreeTrunk01_Inst_0_Normal.bmp
+
+newmtl M_Tree_Branches
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Tree_Branches_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Tree_Branches_0_Specular.bmp
+bump Textures/M_Tree_Branches_0_Normal.bmp
+map_bump Textures/M_Tree_Branches_0_Normal.bmp
+
+newmtl M_Rocks_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Rocks_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Rocks_Inst_0_Specular.bmp
+bump Textures/M_Rocks_Inst_0_Normal.bmp
+map_bump Textures/M_Rocks_Inst_0_Normal.bmp
+
+newmtl M_Rocks_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Rocks_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Rocks_Inst_1_Specular.bmp
+bump Textures/M_Rocks_Inst_1_Normal.bmp
+map_bump Textures/M_Rocks_Inst_1_Normal.bmp
+
+newmtl M_Rocks_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Rocks_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Rocks_Inst_2_Specular.bmp
+bump Textures/M_Rocks_Inst_2_Normal.bmp
+map_bump Textures/M_Rocks_Inst_2_Normal.bmp
+
+newmtl M_Tree_Branches_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0.5 0.5 0.5
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Tree_Branches_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Tree_Branches_Inst_0_Specular.bmp
+bump Textures/M_Tree_Branches_Inst_0_Normal.bmp
+map_bump Textures/M_Tree_Branches_Inst_0_Normal.bmp
+
+newmtl M_Soul_Rocks2_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Soul_Rocks2_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Soul_Rocks2_Inst_0_Specular.bmp
+bump Textures/M_Soul_Rocks2_Inst_0_Normal.bmp
+map_bump Textures/M_Soul_Rocks2_Inst_0_Normal.bmp
+
+newmtl M_Soul_Rocks2_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Soul_Rocks2_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Soul_Rocks2_Inst_1_Specular.bmp
+bump Textures/M_Soul_Rocks2_Inst_1_Normal.bmp
+map_bump Textures/M_Soul_Rocks2_Inst_1_Normal.bmp
+
+newmtl M_Soul_Rocks2_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Soul_Rocks2_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Soul_Rocks2_Inst_2_Specular.bmp
+bump Textures/M_Soul_Rocks2_Inst_2_Normal.bmp
+map_bump Textures/M_Soul_Rocks2_Inst_2_Normal.bmp
+
+newmtl M_Soul_Rocks2_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Soul_Rocks2_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Soul_Rocks2_Inst_3_Specular.bmp
+bump Textures/M_Soul_Rocks2_Inst_3_Normal.bmp
+map_bump Textures/M_Soul_Rocks2_Inst_3_Normal.bmp
+
+newmtl M_Soul_Rocks2_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Soul_Rocks2_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Soul_Rocks2_Inst_4_Specular.bmp
+bump Textures/M_Soul_Rocks2_Inst_4_Normal.bmp
+map_bump Textures/M_Soul_Rocks2_Inst_4_Normal.bmp
+
+newmtl M_Soul_Rocks2_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Soul_Rocks2_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Soul_Rocks2_Inst_5_Specular.bmp
+bump Textures/M_Soul_Rocks2_Inst_5_Normal.bmp
+map_bump Textures/M_Soul_Rocks2_Inst_5_Normal.bmp
+
+newmtl M_Soul_Rocks2_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Soul_Rocks2_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Soul_Rocks2_Inst_6_Specular.bmp
+bump Textures/M_Soul_Rocks2_Inst_6_Normal.bmp
+map_bump Textures/M_Soul_Rocks2_Inst_6_Normal.bmp
+
+newmtl M_Soul_Rocks2_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Soul_Rocks2_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Soul_Rocks2_Inst_7_Specular.bmp
+bump Textures/M_Soul_Rocks2_Inst_7_Normal.bmp
+map_bump Textures/M_Soul_Rocks2_Inst_7_Normal.bmp
+
+newmtl M_Soul_Rocks2_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Soul_Rocks2_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Soul_Rocks2_Inst_8_Specular.bmp
+bump Textures/M_Soul_Rocks2_Inst_8_Normal.bmp
+map_bump Textures/M_Soul_Rocks2_Inst_8_Normal.bmp
+
+newmtl M_Soul_Rocks2_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Soul_Rocks2_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Soul_Rocks2_Inst_9_Specular.bmp
+bump Textures/M_Soul_Rocks2_Inst_9_Normal.bmp
+map_bump Textures/M_Soul_Rocks2_Inst_9_Normal.bmp
+
+newmtl M_Soul_Rocks2_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Soul_Rocks2_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Soul_Rocks2_Inst_10_Specular.bmp
+bump Textures/M_Soul_Rocks2_Inst_10_Normal.bmp
+map_bump Textures/M_Soul_Rocks2_Inst_10_Normal.bmp
+
+newmtl M_Soul_Rocks2_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Soul_Rocks2_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Soul_Rocks2_Inst_11_Specular.bmp
+bump Textures/M_Soul_Rocks2_Inst_11_Normal.bmp
+map_bump Textures/M_Soul_Rocks2_Inst_11_Normal.bmp
+
+newmtl M_Soul_Rocks2_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0 0 0
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_Soul_Rocks2_Inst_0_BaseColor.bmp
+map_Ks Textures/M_Soul_Rocks2_Inst_12_Specular.bmp
+bump Textures/M_Soul_Rocks2_Inst_12_Normal.bmp
+map_bump Textures/M_Soul_Rocks2_Inst_12_Normal.bmp
+
+newmtl Soul_Tree011M_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0.5 0.5 0.5
+d 1
+Ns 32
+illum 2
+map_Kd Textures/Soul_Tree011M_Inst_0_BaseColor.bmp
+map_Ks Textures/Soul_Tree011M_Inst_0_Specular.bmp
+bump Textures/Soul_Tree011M_Inst_0_Normal.bmp
+map_bump Textures/Soul_Tree011M_Inst_0_Normal.bmp
+
+newmtl M_FirePit_Inst
+Kd 1 1 1
+Ka 0.2000000029802322 0.2000000029802322 0.2000000029802322
+Ks 0.0 0.0 0.0
+Ke 0.5 0.5 0.5
+d 1
+Ns 32
+illum 2
+map_Kd Textures/M_FirePit_Inst_0_BaseColor.bmp
+map_Ks Textures/M_FirePit_Inst_0_Specular.bmp
+bump Textures/M_FirePit_Inst_0_Normal.bmp
+map_bump Textures/M_FirePit_Inst_0_Normal.bmp
+

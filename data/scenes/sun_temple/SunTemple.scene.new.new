@@ -1,0 +1,177 @@
+camera
+{
+  time 0
+  eye 0 4.64705 36.9012
+  lookat -4.37114e-08 4.64705 35.9012
+  up 1.0685e-09 1 -4.67056e-17
+}
+
+camera
+{
+  time 1
+  eye 2.56572 4.64146 36.6727
+  lookat 2.22895 4.59785 35.7321
+  up -0.00694622 0.999014 -0.0438424
+}
+
+camera
+{
+  time 2
+  eye 5.5418 4.60059 35.0005
+  lookat 4.84422 4.55174 34.2856
+  up -0.0218915 0.998661 -0.0468823
+}
+
+camera
+{
+  time 3
+  eye 7.97415 4.51653 31.5616
+  lookat 7.02728 4.44329 31.2485
+  up -0.0622149 0.997045 -0.0450651
+}
+
+camera
+{
+  time 4
+  eye 8.42512 4.41585 27.443
+  lookat 7.42976 4.36526 27.5248
+  up -0.0524064 0.998422 -0.020162
+}
+
+camera
+{
+  time 5
+  eye 7.12319 4.3106 23.1373
+  lookat 6.39205 4.20955 23.812
+  up -0.0865184 0.994718 0.0552325
+}
+
+camera
+{
+  time 6
+  eye 5.273 4.31794 20.9424
+  lookat 4.6874 4.15634 21.7367
+  up -0.107754 0.986748 0.121312
+}
+
+camera
+{
+  time 7
+  eye 2.9289 4.28519 19.6025
+  lookat 2.55074 4.06704 20.5021
+  up -0.0935175 0.97587 0.197311
+}
+
+camera
+{
+  time 8
+  eye 0.64717 4.26843 18.917
+  lookat 0.487879 4.18475 19.9006
+  up -0.0172546 0.996485 0.0819733
+}
+
+camera
+{
+  time 9
+  eye -0.415113 4.33813 17.9668
+  lookat -0.354371 4.23187 18.9593
+  up 0.0079943 0.994337 0.105974
+}
+
+camera
+{
+  time 11
+  eye 0.126304 5.21989 13.497
+  lookat 0.185583 5.17279 14.4941
+  up 0.00424693 0.998889 0.0469372
+}
+
+mesh
+{
+    file SunTemple.obj
+}
+
+light
+{
+    emission 20 20 20
+    position 0 7 65
+}
+
+light
+{
+    emission 13 13 13
+    position 0 4 54
+}
+
+light
+{
+    emission 20 20 20
+    position 0 2 58
+}
+
+light
+{
+    emission 20 20 20
+    position 0 5 49
+}
+
+light
+{
+    emission 6 6 6
+    position -6 6 42
+}
+
+light
+{
+    emission 6 6 6
+    position 6 6 42
+}
+
+light
+{
+    emission 50 50 50
+    position 0 10 32
+}
+
+light
+{
+    emission 35 35 35
+    position 0 8 24.5
+}
+
+light
+{
+    emission 8 8 8
+    position 0 5 14
+}
+
+# lights under the dome
+light
+{
+    emission 20 20 20
+    position 2 6 -5
+}
+
+light
+{
+    emission 20 20 20
+    position -2 6 -5
+}
+
+light
+{
+    emission 35 35 35
+    position 0 7 6
+}
+
+light
+{
+    emission 20 20 20
+    position -0.028223201632499695 1.624000072479248 31.539669036865234
+}
+
+light
+{
+    emission 90 90 90
+    position 0 14 0
+}
