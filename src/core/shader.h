@@ -9,6 +9,11 @@
 #include <sstream>
 #include <iostream>
 #include <map>
+#include <regex>
+#include <string_view>
+
+#include <glsl/glsl_optimizer.h>
+#include <core/serialize.h>
 
 class Shader {
 public:
@@ -25,8 +30,9 @@ public:
         std::string fragmentCode;
         std::string geometryCode;
         
-        vertexCode = readSourceFile(vertexPath, tl);
-        fragmentCode = readSourceFile(fragmentPath, tl);
+        vertexCode = optimizeShaderSource(readSourceFile(vertexPath, tl), kGlslOptShaderVertex);
+        fragmentCode = optimizeShaderSource(readSourceFile(fragmentPath, tl), kGlslOptShaderFragment);
+        
         // if geometry shader path is present, also load a geometry shader
         if (!geometryPath.empty()) {
             geometryCode = readSourceFile(geometryPath, tl);
@@ -123,6 +129,38 @@ public:
     }
 
 private:
+    
+    static std::string replaceVersionString(std::string &src, std::string_view replacement) {
+        static std::regex version_string_finder{R"(#version\s+\d{3}\s+(core|es)?)", std::regex::optimize | std::regex::ECMAScript};
+        std::smatch match_result{};
+        if (!std::regex_search(src, match_result, version_string_finder)) {
+            throw std::runtime_error{"Failed to find version string in shader source"};
+        }
+        auto version_string = match_result.str();
+        src = serialize(
+            std::string_view{src}.substr(0, match_result.position()),
+            replacement,
+            std::string_view{src}.substr(match_result.position() + match_result.length()));
+        return version_string;
+    }
+    
+    static std::string optimizeShaderSource(std::string src, glslopt_shader_type shader_type) {
+        
+        auto version_string = replaceVersionString(src, "#version 300 es");
+        
+        static constexpr auto context_deleter = [](glslopt_ctx *ctx) noexcept { glslopt_cleanup(ctx); };
+        static std::unique_ptr<glslopt_ctx, decltype(context_deleter)> optimizer_context{glslopt_initialize(kGlslTargetOpenGL), context_deleter};
+        
+        static constexpr auto shader_deleter = [](glslopt_shader *shader) noexcept { glslopt_shader_delete(shader); };
+        std::unique_ptr<glslopt_shader, decltype(shader_deleter)> shader{glslopt_optimize(optimizer_context.get(), shader_type, src.c_str(), 0), shader_deleter};
+        
+        if (!glslopt_get_status(shader.get())) {
+            throw std::runtime_error{serialize("Failed to optimize shader: ", glslopt_get_log(shader.get()))};
+        }
+        src = glslopt_get_output(shader.get());
+        replaceVersionString(src, version_string);
+        return src;
+    }
     
     static std::string readSourceFile(const std::string &path, const TemplateList &tl) {
         

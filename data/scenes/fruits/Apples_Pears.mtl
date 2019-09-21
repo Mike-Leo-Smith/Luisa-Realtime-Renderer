@@ -1,0 +1,107 @@
+# Blender MTL File: 'Apples_Pears.blend1'
+# Material Count: 10
+
+newmtl Apfel_1_Schale
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures/Apfel_1_diffuse.bmp
+
+newmtl Apfel_1_Stengel
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures/Apfel_1_diffuse.bmp
+
+newmtl Apfel_2_Schale
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures/Apfel_2_diffuse.bmp
+
+newmtl Apfel_2_Stengel
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures/Apfel_2_diffuse.bmp
+
+newmtl Birne_1_Schale
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.0 0.0 0.0
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures/Birne_1_diffuse.bmp
+
+newmtl Birne_2_Schale
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.0 0.0 0.0
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures/Birne_2_diffuse.bmp
+
+newmtl Birne_3_Schale
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.0 0.0 0.0
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures/Birne_3_diffuse.bmp
+
+newmtl Birne_Stengel_01
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.64 0.64
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Boden
+Ns 256
+Ka 1.000000 1.000000 1.000000
+Kd 0.64 0.34  0.34
+Ks 0.3 0.3 0.3
+Ni 1.6
+d 1.000000
+illum 2
+
+newmtl Emitter
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2

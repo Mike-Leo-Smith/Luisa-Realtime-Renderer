@@ -2,5 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/thirdparty/assimp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/thirdparty/glfw" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/thirdparty/glm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/thirdparty/stb/repo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/thirdparty/tinyexr/repo" vcs="Git" />
   </component>
 </project>

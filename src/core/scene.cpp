@@ -27,6 +27,9 @@ SceneInfo SceneInfo::load(const std::string &path) {
     scene._folder = path.substr(0, path.find_last_of('/')).append("/");
     
     std::ifstream file{path};
+    if (!file.is_open()) {
+        throw std::runtime_error{serialize("Failed to load scene: ", path)};
+    }
     
     auto read_token = [&] {
         

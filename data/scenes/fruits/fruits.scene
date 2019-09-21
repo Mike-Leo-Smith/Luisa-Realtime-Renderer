@@ -1,0 +1,37 @@
+camera
+{
+    time 0.0
+    eye 2.50916 1.94859 3.20935
+    lookat 1.88252 1.61592 2.50462
+    up -0.277806 0.940256 -0.196829
+}
+
+
+camera
+{
+    time 2000.00
+    eye 2.50916 1.94859 3.20935
+    lookat 1.88252 1.61592 2.50462
+    up -0.277806 0.940256 -0.196829
+
+}
+
+mesh
+{
+    file Apples_Pears.obj
+}
+
+
+
+light
+{
+    emission 10 10 10
+    # position 0 2.5 0.0
+    position 1.0 1.0 0.0
+    radius 0.001
+    # axis_direction 0 1 0
+    # axis_position -2.0 1.4 -2.5
+    # angular_v 40
+}
+
+

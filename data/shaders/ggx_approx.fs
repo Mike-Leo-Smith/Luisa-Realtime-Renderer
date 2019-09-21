@@ -74,8 +74,8 @@ void main()
     float Roughness = sqrt(Roughness);
 
     vec3 Albedo = Color;
-    if (TexId >= 0) {
-        vec2 Coord = (fract(fract(TexCoord) + 1.0f) * TexSize + TexOffset) / ${TEXTURE_MAX_SIZE};
+    if (TexId >= 0.0f) {
+        vec2 Coord = (fract(fract(TexCoord) + 1.0f) * TexSize + TexOffset) / float(${TEXTURE_MAX_SIZE});
         vec4 Sample = texture(textures, vec3(Coord, TexId));
         if (Sample.a < 0.01f) {
             discard;

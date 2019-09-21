@@ -13,3 +13,6 @@
 [submodule "thirdparty/assimp"]
 	path = thirdparty/assimp
 	url = https://github.com/assimp/assimp.git
+[submodule "thirdparty/glsl-optimizer"]
+	path = thirdparty/glsl-optimizer
+	url = https://github.com/aras-p/glsl-optimizer.git

@@ -57,6 +57,13 @@ include_directories(thirdparty/assimp/include)
 add_subdirectory(thirdparty/assimp)
 link_libraries(assimp)
 
+set(DEBUG OFF CACHE BOOL "" FORCE)
+set(CMAKE_CXX_STANDARD 11)
+include_directories(thirdparty/glsl-optimizer/src)
+add_subdirectory(thirdparty/glsl-optimizer)
+link_libraries(glsl_optimizer)
+set(CMAKE_CXX_STANDARD 17)
+
 include_directories(src)
 add_subdirectory(src/core)
 link_libraries(core)
