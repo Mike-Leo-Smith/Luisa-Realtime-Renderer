@@ -16,3 +16,6 @@
 [submodule "thirdparty/glsl-optimizer"]
 	path = thirdparty/glsl-optimizer
 	url = https://github.com/aras-p/glsl-optimizer.git
+[submodule "thirdparty/imgui/repo"]
+	path = thirdparty/imgui/repo
+	url = https://github.com/ocornut/imgui.git

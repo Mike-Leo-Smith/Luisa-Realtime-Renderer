@@ -89,7 +89,7 @@ int main(int argc, char *argv[]) {
     
     // glad: load all OpenGL function pointers
     // =======================================
-    if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
+    if (gladLoadGL() == 0) {
         std::cout << "Failed to initialize GLAD" << std::endl;
         return -1;
     }

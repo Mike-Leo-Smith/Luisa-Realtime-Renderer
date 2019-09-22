@@ -5,6 +5,7 @@
     <mapping directory="$PROJECT_DIR$/thirdparty/assimp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/thirdparty/glfw" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/thirdparty/glm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/thirdparty/glsl-optimizer" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/thirdparty/stb/repo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/thirdparty/tinyexr/repo" vcs="Git" />
   </component>

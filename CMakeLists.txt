@@ -64,8 +64,14 @@ add_subdirectory(thirdparty/glsl-optimizer)
 link_libraries(glsl_optimizer)
 set(CMAKE_CXX_STANDARD 17)
 
+include_directories(thirdparty/imgui/repo)
+include_directories(thirdparty/imgui/repo/examples)
+add_subdirectory(thirdparty/imgui)
+link_libraries(imgui)
+
 include_directories(src)
 add_subdirectory(src/core)
 link_libraries(core)
 
 add_executable(LuisaVR main.cpp)
+add_executable(ImGuiTest imgui_test.cpp)
